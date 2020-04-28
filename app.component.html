@@ -1,0 +1,6 @@
+<div>
+    <input type="radio" name="colors" (click)="color='blue'">blue
+    <input type="radio" name="colors" (click)="color='red'">red
+    <input type="radio" name="colors" (click)="color='green'">green
+</div>
+<h2 [colorchange]="color">{{message}}</h2>
